@@ -9,7 +9,6 @@ body {
 h1 {
     color: #101010;
     font-family: 'Shrikhand';
-    font-style: italic;
     font-weight: 400;
     font-size: 30px;
     line-height: 44px;
@@ -37,12 +36,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    bottom: 44.25%;
 }
-.wht {
-    width: 375px;
-    height: 63px;
-}
-
 /* Header search */
 .borderout {
     display: flex;
