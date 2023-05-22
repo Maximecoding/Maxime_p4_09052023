@@ -209,6 +209,10 @@ h2 {
 .textecard {
     margin:0px;
 }
+.textecardtown {
+    font-style: normal;
+    font-weight: 300;
+}
 .txtcardpad {
     padding: 13px;
     display: flex;
