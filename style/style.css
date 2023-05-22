@@ -6,9 +6,16 @@ body {
     align-items: center;
     flex-direction: column;
 }
-.shrik {
+h1 {
+    color: #101010;
     font-family: 'Shrikhand';
     font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+}
+.shrik {
+    font-family: 'Shrikhand';
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
@@ -69,11 +76,7 @@ main {
     max-width: 1400px;
     width: 100%;
 }
-h1 {
-    color: black;
-    font-weight: 700;
-    
-}
+
 
 /* partie texte réservation */
 .dimensionsection {
