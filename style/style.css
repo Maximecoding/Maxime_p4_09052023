@@ -63,6 +63,8 @@ header {
 input::placeholder {
     font-weight: 500;
     color: #353535;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 input,
