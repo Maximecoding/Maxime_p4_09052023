@@ -81,6 +81,7 @@ h3 {
     text-transform: uppercase;
     border-bottom: 3px solid #99E2D0;
     width:40px;
+    padding-bottom:8px;
 }
 h4 {
     font-family: 'Roboto';
