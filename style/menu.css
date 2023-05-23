@@ -53,9 +53,9 @@ header {
     flex-basis: 248px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
     border-radius: 40px;
-    padding-left: 16px;
+    padding-left: 10px;
     padding-right: 16px;
-    gap: 4px;
+    gap: 24px;
     margin-bottom: 8px;
     color: black;
     text-decoration: none;
@@ -70,6 +70,7 @@ h2 {
     font-size: 28px;
     line-height: 40.82px;
     color: #101010;
+    padding: 17px;
 }
 h3 {
     font-family: 'Roboto';
@@ -79,6 +80,7 @@ h3 {
     line-height: 19px;
     text-transform: uppercase;
     border-bottom: 3px solid #99E2D0;
+    width:40px;
 }
 h4 {
     font-family: 'Roboto';
@@ -112,7 +114,6 @@ p {
     height: 69px;
     justify-content: flex-start;
     padding: 13px;
-    margin: 8px;
     background: #FFFFFF;
     box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
     border-radius: 15.0431px;
