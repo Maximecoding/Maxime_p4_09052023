@@ -8,21 +8,10 @@ body {
 }
 
 /* Header */
-header {
-    max-width: 1400px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: #FFFFFF;
-}
-.contentcenter {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 64px;
-}
 .colorarrow {
     color: #353535;
+    position: absolute;
+    left: 5px;
 }
 .positioncompo {
     display: flex;
