@@ -12,6 +12,7 @@ body {
     color: #353535;
     position: absolute;
     left: 5px;
+    margin-left: 23px;
 }
 .positioncompo {
     display: flex;
@@ -31,11 +32,14 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 32px;
+    margin-left: 17px;
 }
 .heartlineh {
     Width: 30px;
     Height: 20px;
 }
+
 .cardmenu {
     width: 375px;
     left: calc(50% - 375px/2);
@@ -111,6 +115,13 @@ p {
     box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
     border-radius: 15.0431px;
     margin-bottom: -5px;
+    gap: 5px;
+}
+.platspace {
+    padding-top: 40px;
+}
+.dessertspace {
+    margin-bottom: -5px;
 }
 /* Main */
 main {
@@ -127,6 +138,18 @@ main {
 .centercommand {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.dimensionbutton {
+    padding-left: 49px;
+    padding-right: 49px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    color: #FFFFFF;
 }
 /* partie Footer */
 .shrik {
