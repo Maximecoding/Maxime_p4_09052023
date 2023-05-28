@@ -110,6 +110,7 @@ h2 {
 .spacerestaurants {
     padding-left: 20px;
     padding-top: 122px;
+    padding-bottom: 20px;
 }
 .cardcontainer {
     display: flex;
@@ -117,6 +118,9 @@ h2 {
     gap: 8px;
     margin-left: 8px;
     margin-right: 8px;
+}
+.spacecontainer {
+    margin: 17px;
 }
 .onec {
     width: 100%;
@@ -181,3 +185,6 @@ h2 {
 
 }
 
+.spacefooter {
+    margin-top: 66px;
+}
