@@ -33,12 +33,27 @@ main {
     justify-content: center;
     align-items: center;
 }
+.spaceh1 {
+    margin-left: 42px;
+    margin-right: 58px;
+    margin-bottom: 22px;
+}
+.alignh2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 .spacep1 {
     color: #353535;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
+    margin-left: 26px;
+    margin-right: 34px;
+    margin-bottom: 27px;
 }
 h2 {
     color: black;
@@ -46,15 +61,21 @@ h2 {
 }
 
 /* Partie fonctionnement */
-
-
+.spacebutton {
+    margin-bottom: 105px;
+}
+.spacefonctionnement {
+    padding-bottom: 26px;
+    padding-left: 20px;
+}
 .searching3 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: left;
-    margin-top: 56px;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .buttonform3 {
@@ -86,7 +107,10 @@ h2 {
     z-index: 2;
 }
 /* partie Restaurant */
-
+.spacerestaurants {
+    padding-left: 20px;
+    padding-top: 122px;
+}
 .cardcontainer {
     display: flex;
     flex-direction: column;
