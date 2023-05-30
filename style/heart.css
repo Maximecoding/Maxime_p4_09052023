@@ -1,29 +1,18 @@
-.heartline {
+.btn-heart {
     font-size: 22px;
 }
-.heartcolor {
-    font-size: 21px;
-    display: block;
+
+.btn-heart .fa-solid {
+    display: none;
     background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    opacity:0;
 }
-
-.btn {
-    &:hover {
-        &::after {
-            opacity: 1;
-        }
-    }
-    &::after {
-        content: "";
-        top: 0;
-        right: 0;
-        bottom: 0;  
-        left: 0;
-        background-color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);;
-        opacity: 0;
-        z-index: -1;
-        transition: opacity 250ms;
-    }
+.btn-heart:hover .fa-solid {
+    display: block;
+    
+}
+.btn-heart:hover .fa-regular {
+    display: none;
 }
