@@ -7,12 +7,17 @@
     background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    opacity:0;
+    animation-name: learn;
+    animation-duration: 2s;
 }
 .btn-heart:hover .fa-solid {
     display: block;
-    
 }
+
 .btn-heart:hover .fa-regular {
     display: none;
 }
+@keyframes learn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+   }
