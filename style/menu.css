@@ -41,7 +41,6 @@ body {
 }
 
 .cardmenu {
-    width: 375px;
     left: calc(50% - 375px/2);
     top: 283px;
     background: #F7F7F7;
@@ -107,7 +106,6 @@ p {
 .cardfood {
     display: flex;
     flex-direction: column;
-    width: 349px;
     height: 69px;
     justify-content: flex-start;
     padding: 13px;
@@ -116,7 +114,13 @@ p {
     border-radius: 15.0431px;
     margin-bottom: -5px;
     gap: 5px;
-    
+    overflow:hidden;    
+}
+.cardfood-ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
 }
 .platspace {
     padding-top: 40px;
