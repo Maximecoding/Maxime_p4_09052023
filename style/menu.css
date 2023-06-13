@@ -103,18 +103,26 @@ p {
     text-align: center;
     color: #353535;
 }
+
 .cardfood {
     display: flex;
-    flex-direction: column;
     height: 69px;
-    justify-content: flex-start;
-    padding: 13px;
+    justify-content: space-between;
     background: #FFFFFF;
     box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
     border-radius: 15.0431px;
-    margin-bottom: -5px;
-    gap: 5px;
     overflow:hidden;    
+}
+.cardfood:hover .greencross {
+    margin-right: 0px;
+}
+
+.cardfoodcontent {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
 }
 .cardfood-ellipsis {
     white-space: nowrap;
