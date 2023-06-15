@@ -1,0 +1,51 @@
+.menux3 {
+    animation-name: fadop;
+    animation-duration: 3s;
+}
+@keyframes fadop {
+    0% {
+        transform: translateY(50%);
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        transform: scale(1);
+        opacity:1;
+    }
+   }
+
+.menux3-2 {
+    animation-name: fadop2;
+    animation-duration: 6s;
+ 
+}
+@keyframes fadop2 {
+    0% {
+        transform: translateY(50%);
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        transform: scale(1);
+        opacity:1;
+    }
+   }
+.menux3-3 {
+    animation-name: fadop3;
+    animation-duration: 9s;
+ 
+}
+@keyframes fadop3 {
+    0% {
+        transform: translateY(50%);
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        transform: scale(1);
+        opacity:1;
+    }
+   }
