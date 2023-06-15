@@ -9,4 +9,29 @@
     align-items: center;
     color: white;
     margin-right: -60px;
+    animation-name: greencrosstiming;
+    animation-duration: 3s ease-in-out;
+}
+.cardfood:hover .rotatecross {
+    animation-name: rotatecross;
+    animation-duration: 2s;
+}
+@keyframes rotatecross {
+    0% {
+        transform: rotate(-270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+@keyframes greencrosstiming {
+    0% {
+        margin-left: 0px;
+    }
+    50% {
+        margin-left: 30px;
+    }
+    100% {
+        margin-left: 60px;
+    }
 }
