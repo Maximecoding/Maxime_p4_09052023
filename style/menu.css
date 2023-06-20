@@ -113,9 +113,6 @@ p {
     border-radius: 15.0431px;
     overflow:hidden;  
 }
-.cardfood:hover .greencross {
-    margin-right: 0px;
-}
 
 .cardfoodcontent {
     padding: 10px;

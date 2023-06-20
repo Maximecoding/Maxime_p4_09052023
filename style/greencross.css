@@ -9,9 +9,10 @@
     align-items: center;
     color: white;
     margin-right: -60px;
-    animation-name: greencrosstiming;
-    animation-duration: 10s;
-    animation-timing-function: ease-in-out;
+}
+.cardfood:hover > .greencross {
+    animation: 1s ease-in-out greencrosstiming;
+    animation-fill-mode: both;
 }
 .cardfood:hover .rotatecross {
     animation-name: rotatecross;
@@ -26,13 +27,7 @@
     }
 }
 @keyframes greencrosstiming {
-    0% {
-        margin-right: 0px;
-    }
-    50% {
-        margin-right: 5px;
-    }
     100% {
-        margin-right: 10px;
+        margin-right: 0px;
     }
 }
