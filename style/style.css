@@ -194,11 +194,15 @@ h2 {
     .fonctionnement-container {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
     .cardcontainer {
         flex-wrap: wrap;
-        width: 40%;
         flex-direction: row;
+        gap: 56px;
+    }
+    .colorfond {
+        flex: 2 40%;
     }
 }
 
