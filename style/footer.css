@@ -24,3 +24,15 @@
     line-height: 19px;
     color: #FFFFFF;
 }
+@media (min-width: 769px) {
+    .footerrow {
+        flex-direction: row-reverse;
+       justify-content: right;
+    }
+    .logoright {
+        display: flex;
+        flex-direction: row;
+        gap:24px;
+
+    }
+}
