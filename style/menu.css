@@ -161,3 +161,15 @@ main {
     line-height: 26px;
     color: #FFFFFF;
 }
+@media (min-width: 769px) {
+    .rowh1heart {
+    justify-content: center;
+    }
+    .cardmenu {
+        align-items: center;
+}
+    .plateleft {
+        display: flex;
+        justify-content: left;
+    }
+}
