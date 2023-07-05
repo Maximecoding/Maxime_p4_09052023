@@ -1,6 +1,12 @@
+.menux {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .menux3 {
     animation-name: fadop;
     animation-duration: 3s;
+    
 }
 @keyframes fadop {
     0% {
@@ -18,7 +24,6 @@
 .menux3-2 {
     animation-name: fadop2;
     animation-duration: 6s;
- 
 }
 @keyframes fadop2 {
     0% {
@@ -35,7 +40,6 @@
 .menux3-3 {
     animation-name: fadop3;
     animation-duration: 9s;
- 
 }
 @keyframes fadop3 {
     0% {
