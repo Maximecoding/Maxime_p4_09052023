@@ -203,6 +203,10 @@ h2 {
     }
     .colorfond {
         flex: 2 40%;
+        height: 270px;
+    }
+    .buttonreserv {
+        padding-right: 48px;
     }
 }
 
