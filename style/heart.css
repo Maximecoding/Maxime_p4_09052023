@@ -9,9 +9,11 @@
     -webkit-text-fill-color: transparent;
     animation-name: learn;
     animation-duration: 2s;
+    transition: all 200ms ease-in-out;
 }
 .btn-heart:hover .fa-solid {
     display: block;
+    transform: scale(1.02);
 }
 
 .btn-heart:hover .fa-regular {
