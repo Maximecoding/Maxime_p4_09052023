@@ -1,13 +1,12 @@
 .spinner {
   position: fixed;
-  background-color: grey;
+  background-color: black;
   height: 100vh;
   inset: 0;
   z-index:10;
   opacity:0.9;
-  animation: disappear 3s;
-  animation-fill-mode: forwards;
-  transform-origin: top;
+  animation: disappear 1s forwards;
+  animation-delay: 4s;
   display: flex;
   align-items: center;
   justify-content: center;
