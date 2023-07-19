@@ -9,6 +9,7 @@
     align-items: center;
     color: white;
     margin-right: -60px;
+    filter:drop-shadow(2px 2px 2Px #e7e7e7);
 }
 .cardfood:hover > .greencross {
     animation: 1s ease-in-out greencrosstiming;
