@@ -6,7 +6,7 @@
   z-index:10;
   opacity:0.9;
   animation: disappear 1s forwards;
-  animation-delay: 4s;
+  animation-delay: 3s;
   display: flex;
   align-items: center;
   justify-content: center;
