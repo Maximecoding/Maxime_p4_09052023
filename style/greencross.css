@@ -10,11 +10,13 @@
     color: white;
     margin-right: -60px;
     filter:drop-shadow(2px 2px 2Px #e7e7e7);
+    animation: 1s out;
 }
-.cardfood:hover > .greencross {
-    animation: 1s ease-in-out greencrosstiming;
-    animation-fill-mode: both;
+.cardfood:hover .greencross {
+    animation: 1s ease-in-out in;
+    animation-fill-mode: forwards;
 }
+
 .cardfood:hover .rotatecross {
     animation-name: rotatecross;
     animation-duration: 2s;
@@ -27,8 +29,19 @@
         transform: rotate(0);
     }
 }
-@keyframes greencrosstiming {
-    100% {
+@keyframes in {
+    from {
+        margin-right: -60px;
+    }
+    to {
         margin-right: 0px;
+    }
+}
+@keyframes out {
+    from {
+        margin-right: 0px;
+    }
+    to {
+        margin-right: -60px;
     }
 }

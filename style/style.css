@@ -129,6 +129,7 @@ h2 {
 .spacemenu {
     display: flex;
     justify-content: space-between;
+    height: 26px;
 }
 
 .colorfond {
