@@ -32,8 +32,6 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 118px;
-    padding-right: 118px;
     gap: 10px;
     background: #EAEAEA;
     border: 0px solid black;
@@ -59,6 +57,7 @@ textarea {
     border: 0px solid black;
     color: #EAEAEA;
     background-color: #EAEAEA;
+    width:120px;
 }
 
 
